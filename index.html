@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="login">
+  <!-- Login widget -->
+  
+
+  <div class="welcomeHeader">
+    <span class="font1">WELCOME </span> <span class="font3">TO </span> <span class="font2"> Destin' Air</span> 
+</div>
+<container>
+  <div class="login-Widget">
+
+    <div id="firebaseui-auth-container"></div>
+  
+  </div>
+
+  <!-- weather for nearest city -->
+
+
+  <div class="card flight-inf">
+    <div class="cardWeather" style="width: 10rem;">
+      <div class="card-header" id="cityWeather">
+      </div>
+      <ul class="list-group list-group-flush">
+        <img id="tempImg" src="assets/images/Screen Shot 2019-01-31 at 8.09.39 PM.png" height="100px" width="100px">
+        <p class="list-group-item" id="temp">Temperature</p>
+        <img id="humImg" src="assets/images/hu.png" height="100px" width="100px">
+        <li class="list-group-item" id="humidity">Humidity</li>
+        <img id="windImg" src="assets/images/Screen Shot 2019-01-31 at 8.09.51 PM.png" height="100px" width="100px">
+        <li class="list-group-item" id="windSpeed">Wind Speed</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card text-white bg-success mb-3 air-info" style="width: 8rem;">
+
+    <div class="card-header air-card-header"></div>
+    <div class="card-body">
+      <h5 class="card-title air-card-title">Level of Pollution</h5>
+      <h5 class="air-card-usaqi">US AQI</h5>
+      <h2 class="card-text air-card-text"></h2>
+   
+    </div>
+
+  </div>
+  </container>
+
+
+  <script src="assets/js/firebase.js"></script>
+  <script src="assets/js/login.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

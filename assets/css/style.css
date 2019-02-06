@@ -1,0 +1,217 @@
+.destinationOption {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 10% 10% 0;
+
+}
+.login-widget {
+    clear: both;
+}
+
+/* .flight */
+.flight-search {
+
+    padding: 14px;
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-right: 5%;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.flightPage-search {
+    margin-top: 26%;
+    margin-left: 15%;
+
+}
+
+/* weather */
+.weather-grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.weatherPage-search {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.weather-search-result {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.weather-search-btn {
+    width: 200px;
+    background-color: rgba(253, 253, 253, 0.473);
+    border: none;
+    color: #ffffff;
+}
+
+.weather-title {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: #ffffff;
+    background-color: rgba(226, 229, 241, 0.336);
+    text-align: center;
+    padding-top: 10px;
+}
+.dragTitle {
+    background-color: #1f161680;
+    color: #ffffff;
+}
+.mapLocation {
+    margin: 10px 1200px 0;
+}
+
+
+.air-info {
+    height: 100%;
+    color: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 10px;
+    width: 8rem;
+    margin-top: 25%;
+    margin-left: 54.4%;
+    height: 300px
+  
+}
+
+.imageFace {
+    position: relative;
+    left: 50%;
+    top: -50%;
+}
+
+.air-card-header {
+    font-size: 1.5em;
+}
+
+.flight-inf {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    width: 164px;
+    height: 630px;
+    float: left;
+    margin-left: 39%;
+    margin-top: 3.5%;
+}
+
+.cardWeather {
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+img {
+    border-radius: 10px;
+}
+
+#tempImg, #humImg, #windImg {
+    margin: auto;
+}
+
+.cardFlights {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: white;
+    font-size: 20px;
+    font-weight: 200;
+    height: 584px;
+  
+    
+}
+
+#signIn {
+    background: blue;
+}
+
+
+.btn {
+    margin-right: 15px;
+}
+
+.resize {
+    margin-right: 15px;
+}
+.navbar {
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    font-size: 25px;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
+.card-top {
+    width: 100px;
+    height: 180px;
+    overflow: scroll;
+    margin-top: 27px;
+    border-radius: 10px;
+}
+body {
+    background-color: darkgray;
+}
+
+
+.font1{
+    color: black;
+    font-family: initial;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.font2{
+    color: black;
+    font-family: cursive;
+    font-size: 45px;
+  
+}
+
+.font3{
+    color: black;
+    font-family: initial;
+    font-size: 20px;
+    letter-spacing: 3px;
+  
+}
+
+.welcomeHeader {
+    background-color: white;
+    text-align: center;
+    opacity: .45;
+}
+
+.firebaseui-idp-list {
+margin-top: 15%;
+position: absolute;
+margin-left: 60%;
+width: 131px;
+}
